@@ -1,1 +1,16 @@
-/* You can add global styles to this file, and also import other style files */
+@import 'themes';
+
+@import '~@nebular/theme/styles/globals';
+
+@include nb-install() {
+  @include nb-theme-global();
+};
+html {
+  background: linear-gradient(rgb(142, 204, 227), rgb(38, 192, 226), rgb(5, 109, 124));
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

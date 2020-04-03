@@ -1,0 +1,21 @@
+main {
+  display: grid;
+  grid-template-columns: 200px 200px 200px;
+  grid-gap: 0px;
+}
+
+h1 {
+  display: flex;
+  margin-top: 5vh;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  margin: 5vh 0px 5vh 0px;
+}
+
+app-square {
+  border: 1px solid gray;
+  height: 200px;
+}
